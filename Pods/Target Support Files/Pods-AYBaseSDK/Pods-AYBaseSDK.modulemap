@@ -1,6 +1,0 @@
-framework module Pods_AYBaseSDK {
-  umbrella header "Pods-AYBaseSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

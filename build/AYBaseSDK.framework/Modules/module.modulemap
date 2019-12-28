@@ -1,0 +1,6 @@
+framework module AYBaseSDK {
+  umbrella header "AYBaseSDK.h"
+
+  export *
+  module * { export * }
+}
