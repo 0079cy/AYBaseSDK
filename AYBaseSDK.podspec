@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AYBaseSDK"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "cy AYBaseSDK."
 
   # This description is used to generate tags and improve search results.
@@ -96,12 +96,11 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  # spec.vendored_frameworks = "AYBaseSDK/*.{framework}"
+  spec.vendored_frameworks = "AYBaseSDK/build/*.{framework}"
 
   #release====================
   #spec.source_files  = "AYBaseSDK", "AYBaseSDK/**/*.{h}"
   #spec.vendored_libraries = "AYBaseSDK/build/AYBaseSDK.a"
-  spec.vendored_frameworks = 'AYBaseSDK/build/AYBaseSDK.framework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
